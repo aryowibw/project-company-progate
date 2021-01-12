@@ -4,8 +4,8 @@ Project Web HTML & CSS
 
 Team Collaboration:
 
-Mohammad Aryo Wibowo
-I Nyoman Adi Sanjaya
-Thaariq Kurnia
-wahyu nur dewanthi
-Muhammad Halif
+- Mohammad Aryo Wibowo
+- I Nyoman Adi Sanjaya
+- Thaariq Kurnia
+- Wahyu nur dewanthi
+- Muhammad Halif
