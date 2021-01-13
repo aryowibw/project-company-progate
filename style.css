@@ -106,9 +106,9 @@ input,textarea {
 
 /*main_section by wahyu nur dewanthi*/
 .main {
-  background-image: url(https://bit.ly/35B0eGA);
+  background-image: url(assets/main.jpeg);
 	background-size: cover;
-  padding: 100px 80px;
+  padding: 180px 0 100px 0;
 }
 .copy-container h1 {
   font-style: normal;

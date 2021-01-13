@@ -1,0 +1,37 @@
+/* Tablet mode */
+@media all and (max-width: 1000px){
+    .content {
+      width: 35%;
+      margin-bottom: 50px;
+    }
+}
+
+/* Phone mode */
+@media all and (max-width: 670px){
+      .header-right {
+        display: none;
+      }
+
+      .main {
+        background-size: cover;
+      }
+
+      input,textarea {
+        width: 150px;
+      }
+
+      .logo {
+        display: block;
+      }
+
+      .content {
+        width: 100%;
+      }
+      .footer-list {
+        text-align: center;
+      }
+
+      .footer-list a {
+        font-size: 10px;
+      }
+}
