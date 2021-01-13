@@ -26,3 +26,33 @@ input,textarea {
   color:#889eab;
 }
 
+/* footer css */
+img{
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left:80px;
+  float: left;
+  width:30px;
+}
+.about{
+  float: right;
+  padding-right:40px;
+  padding-top:10px;
+  padding-bottom:10px;
+  font-size:18px;
+}
+.work{
+  float: right;
+  padding-right:40px;
+  padding-top:10px;
+  padding-bottom:10px;
+  font-size:18px;
+}
+.contact{
+  float: right;
+  padding-right:80px;
+  padding-top:10px;
+  padding-bottom:10px;
+  font-size:18px;
+}
+
