@@ -56,3 +56,41 @@ img{
   font-size:18px;
 }
 
+.content {
+  display: inline-block;
+  width: 20%;
+  height: 120px;
+  background-color: #f7f7f7;
+  margin: 15px;
+  border-radius: 5px;
+
+}
+
+.content h4, p {
+padding: 10px;
+}
+
+.contents a {
+text-decoration: none;
+color: black;
+}
+
+.content-section {
+  text-align: center;
+}
+
+.content:hover {
+background-color: grey;
+}
+
+@media all and (max-width: 1000px){
+.content {
+  width: 35%;
+}
+}
+
+@media all and (max-width: 670px){
+.content {
+  width: 50%;
+}
+}
