@@ -1,3 +1,65 @@
+/* header css */
+body {
+	font-family: "Avenir Next";
+	margin: 0;
+}
+header {
+	height:65px;
+	width: 100%;
+ 	background-color: rgba(34, 49, 52, 0.9);
+ 	position: fixed;
+  top: 0;
+  z-index: 10;
+}
+li {
+	list-style: none;
+}
+a{
+	text-decoration:none;
+}
+.header-left {
+	float: left;
+}
+.logo {
+  width: 65px;
+  margin-left: 20px;
+}
+.header-right {
+	float: right;
+	font-size: 15px;
+  background-color: rgba(255, 255, 255, 0.3);
+  width: 320px;
+  overflow: auto;
+}
+.a{
+  	transition: all 0.5s;
+  	display: block;
+}
+.b {
+  	transition: all 0.5s;
+  	display: block;
+}
+.c {
+  	transition: all 0.5s;
+  	display:block;
+}
+.header-right a {
+	color:white;
+	line-height: 55px;
+	padding:0 20px;
+}
+.header-right li{
+	float: left;
+}
+.a:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.b:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.c:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
 /* Contact_us Section */
 
 .contact_us {
