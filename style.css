@@ -4,7 +4,7 @@ body {
 	margin: 0;
 }
 header {
-	height:65px;
+	height:70px;
 	width: 100%;
  	background-color: rgba(34, 49, 52, 0.9);
  	position: fixed;
@@ -26,6 +26,7 @@ a{
 }
 .header-right {
 	float: right;
+	height: 70px;
 	font-size: 15px;
   background-color: rgba(255, 255, 255, 0.3);
   width: 320px;
