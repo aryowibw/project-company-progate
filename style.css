@@ -1,4 +1,4 @@
-/* Header */
+/* Header_section by Thaariq Kurnia */
 body {
 	font-family: "Avenir Next";
 	margin: 0;
@@ -17,11 +17,12 @@ li {
 a{
 	text-decoration:none;
 }
+
 .header-left {
 	float: left;
 }
 .logo {
-  width: 65px;
+  width: 50px;
   margin-left: 20px;
 }
 .header-right {
@@ -62,69 +63,7 @@ a{
   background-color: rgba(255, 255, 255, 0.5);
 }
 
-/* header css */
-body {
-	font-family: "Avenir Next";
-	margin: 0;
-}
-header {
-	height:65px;
-	width: 100%;
- 	background-color: rgba(34, 49, 52, 0.9);
- 	position: fixed;
-  top: 0;
-  z-index: 10;
-}
-li {
-	list-style: none;
-}
-a{
-	text-decoration:none;
-}
-.header-left {
-	float: left;
-}
-.logo {
-  width: 65px;
-  margin-left: 20px;
-}
-.header-right {
-	float: right;
-	font-size: 15px;
-  background-color: rgba(255, 255, 255, 0.3);
-  width: 320px;
-  overflow: auto;
-}
-.a{
-  	transition: all 0.5s;
-  	display: block;
-}
-.b {
-  	transition: all 0.5s;
-  	display: block;
-}
-.c {
-  	transition: all 0.5s;
-  	display:block;
-}
-.header-right a {
-	color:white;
-	line-height: 55px;
-	padding:0 20px;
-}
-.header-right li{
-	float: left;
-}
-.a:hover {
-  background-color: rgba(255, 255, 255, 0.5);
-}
-.b:hover {
-  background-color: rgba(255, 255, 255, 0.5);
-}
-.c:hover {
-  background-color: rgba(255, 255, 255, 0.5);
-}
-/* Contact_us Section */
+/* Contact Us_Section by Mohammad Aryo Wibowo */
 
 .contact_us {
   padding: 100px 80px;
@@ -135,16 +74,21 @@ a{
   font-size: 28px;
   padding-bottom: 15px;
   margin-bottom: 50px;
-  text-align:left;
+  text-align:center;
 }
 
 input,textarea {
   width: 400px;
   margin-top: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   padding: 20px;
-  font-size: 18px;
+  font-size: 15px;
   border: 1px solid #dee7ec;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: auto;
+	margin-right:auto;
 }
 
 .contact_submit {
@@ -152,9 +96,18 @@ input,textarea {
   color:#889eab;
 }
 
-/*main css*/
+.contact_us h3, p {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*main_section by wahyu nur dewanthi*/
 .main {
   background-image: url(https://bit.ly/35B0eGA);
+	background-size: cover;
   padding: 100px 80px;
 }
 .copy-container h1 {
@@ -165,13 +118,21 @@ input,textarea {
   text-align: center;
 }
 
-/* footer css */
+/* footer_section by I Nyoman Adi Sanjaya */
+.footer {
+  background-color:rgba(34, 49, 52, 0.9);
+  color:#fff;
+  height:60px;
+  padding:20px 0px;
+}
+.footer-list a{
+	color:#fff;
+}
+
 img{
-  padding-top:10px;
-  padding-bottom:10px;
-  padding-left:80px;
+	padding:10px 50px;
   float: left;
-  width:30px;
+  width:50px;
 }
 .about{
   float: right;
@@ -194,6 +155,8 @@ img{
   padding-bottom:10px;
   font-size:18px;
 }
+
+/* content_section by Muhammad Halif  */
 
 .content {
   display: inline-block;
@@ -220,16 +183,4 @@ color: black;
 
 .content:hover {
 background-color: grey;
-}
-
-@media all and (max-width: 1000px){
-.content {
-  width: 35%;
-}
-}
-
-@media all and (max-width: 670px){
-.content {
-  width: 50%;
-}
 }
