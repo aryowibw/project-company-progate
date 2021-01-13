@@ -2,7 +2,7 @@
 
 Project Web HTML & CSS
 
-<a href="https://uncletamir.github.io/project-company-progate/">Visit Site/</a>
+<a href="https://uncletamir.github.io/project-company-progate/">Visit Site</a>
 
 Team Collaboration:
 
