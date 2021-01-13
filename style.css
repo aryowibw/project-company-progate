@@ -26,6 +26,19 @@ input,textarea {
   color:#889eab;
 }
 
+/*main css*/
+.main {
+  background-image: url(https://bit.ly/35B0eGA);
+  padding: 100px 80px;
+}
+.copy-container h1 {
+  font-style: normal;
+  font-family: helvetica;
+  color: white;
+  font-size: 60px;
+  text-align: center;
+}
+
 /* footer css */
 img{
   padding-top:10px;
