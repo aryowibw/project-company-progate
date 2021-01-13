@@ -162,15 +162,19 @@ img{
   display: inline-block;
   width: 20%;
   height: 120px;
-  background-color: #f7f7f7;
+	animation-name: a;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
   margin: 15px;
   border-radius: 5px;
 
 }
 
-.content h4, p {
+.content h4,p {
 padding: 10px;
+color: grey;
 }
+
 
 .contents a {
 text-decoration: none;
@@ -183,4 +187,12 @@ color: black;
 
 .content:hover {
 background-color: grey;
+}
+
+/* animation_section */
+@keyframes a {
+  0%   {background-color: #6a89cc;}
+  25%  {background-color: #4a69bd;}
+  50%  {background-color: #1e3799;}
+  100% {background-color:#0c2461;}
 }
