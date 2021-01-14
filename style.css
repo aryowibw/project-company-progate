@@ -172,7 +172,11 @@ img{
 
 .content h4,p {
 padding: 10px;
-color: grey;
+color: #ffff;
+}
+
+.content h5 {
+	color:black;
 }
 
 
